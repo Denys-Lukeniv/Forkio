@@ -1,0 +1,35 @@
+@mixin DescriptionFont{
+  font-family: 'DescriptionFont', sans-serif ;
+}
+@mixin MainFont{
+  font-family: 'MainFont', sans-serif ;
+}
+@mixin img-background{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin section-title{
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+}
+@mixin btn{
+  border-radius: 40px;
+  background-color: #8D81AC;
+  border: #8D81AC solid 2px;
+  outline: none;
+  font-weight: bold;
+
+  cursor: pointer;
+  color: #fff;
+
+  &:hover{
+    background-color: #fff;
+    border: #8D81AC solid 2px;
+    color: #8D81AC;
+  }
+}
